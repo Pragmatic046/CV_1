@@ -5,298 +5,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculam Vitae | Abdul Ahad Khan</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background: rgb(88, 88, 88);
-            font-family: 'Helvetica';
-            color: white;
-        }
-
-        .main {
-            padding: 20px;
-            background: rgb(88, 88, 88);
-        }
-
-        .top {
-            display: flex;
-            justify-content: space-evenly;
-            /* align-items: center; */
-        }
-
-        /* --------------------------------------------------------------------------------- */
-        .right {
-            width: 65%;
-            margin: 0 50px;
-            padding: 50px;
-            border: none;
-            border-radius: 20px;
-            background: rgb(88, 88, 88);
-            color: rgb(184, 184, 184);
-        }
-
-        .right hr {
-            border-color: rgb(151, 151, 151);
-            width: 16cm;
-        }
-
-        .right p {
-            font-weight: 200;
-            padding: 5px 0;
-            word-spacing: 3px;
-            letter-spacing: 2px;
-        }
-
-        .about {}
-
-        .abt-img {}
-
-        .about-img {
-            width: 1rem;
-            height: 1.2rem;
-            padding: 8px;
-        }
-
-        .education {}
-
-        .edu-img {}
-
-        .education-img {
-            width: 1rem;
-            height: 1.2rem;
-            padding: 8px;
-        }
-
-        .work {}
-
-        .wrk-img {}
-
-        .work-xp-img {
-            width: 1rem;
-            height: 1.2rem;
-            padding: 8px;
-        }
-
-        .right h2 {
-            margin: 20px 0;
-        }
-
-        .duration-1 {
-            margin-left: 3.7cm;
-        }
-
-        .duration-2 {
-            margin-left: 3.7cm;
-        }
-
-        .duration-3 {
-            margin-left: 4.3cm;
-        }
-
-        .right h4 {
-            padding: 5px 0;
-            font-weight: 200;
-        }
-
-        .right h5 {
-            padding: 5px 0;
-            font-weight: 200;
-        }
-
-        /* ------------------------------------------ */
-        .left {
-            width: 35%;
-            padding: 50px;
-            color: gray;
-            margin: 0 50px;
-            margin-left: 20px;
-            background: rgb(184, 184, 184);
-            border: none;
-            border-radius: 20px;
-            transition: 2s;
-        }
-        .left:hover{
-            box-shadow: 0 10px 50px rgb(151, 151, 151);
-        }
-
-        .left hr {
-            border-color: rgb(151, 151, 151);
-            max-width: 8cm;
-        }
-
-        .left .first-img {
-            width: 5cm;
-            height: 7cm;
-            border: none;
-            border-radius: 10px;
-            margin-left: 50px;
-            margin-bottom: 20px;
-            opacity: 0.75;
-            transition: 1s;
-        }
-
-        .left .first-img:hover {
-            box-shadow: 0 10px 20px rgba(80, 80, 80, 0.8);
-            opacity: 1;
-        }
-
-        .left > h1 a{
-            margin: 20px 0 0 15px;
-            padding: 10px;
-            text-decoration: none;
-            color: gray;
-            transition: 1s;
-        }
-        .left > h1 a:hover{
-            color: rgb(88, 88, 88);
-            letter-spacing: 2px;
-            font-size: 30px;
-        }
-
-        .left h2 {
-            margin: 20px 0;
-        }
-
-        .left .second-img {
-            width: 1rem;
-            height: 1.2rem;
-            float: left;
-            padding: 8px;
-        }
-
-        .skl-img h2 {}
-
-        .skill-img {
-            width: 1rem;
-            height: 1.2rem;
-            padding: 8px;
-        }
-
-        .left h3 {
-            padding: 5px;
-            font-weight: 200;
-
-        }
-
-        .left h4 {
-            padding: 10px;
-            font-weight: 200;
-        }
-
-        .left h3 a {
-            text-decoration: none;
-            color: gray;
-            transition: 1s;
-        }
-        .left h3 a:hover{
-            color: rgb(85, 85, 85);
-            font-size: 20px;
-            letter-spacing: 1px;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="main">
         <div class="top">
             <div class="left">
-                <a href="#"><img class="first-img" src="profile.jpg" alt="Profile Picture"></a>
-                <h1><a href="">Abdul Ahad Khan</a></h1><br />
-                <hr />
-                <div class="cnt-img">
-                    <h2>Contact</h2>
-                    <img class="contact-img" src="" alt="">
+                <div class="profile">
+                    <a href="#"><img class="profile-img" src="profile.jpg" alt="Profile Picture"></a>
                 </div>
-                <img class="second-img" src="profile.jpg" alt="">
-                <h3>+92-308-930-2436</h3>
-                <br />
-                <img class="second-img" src="profile.jpg" alt="">
-                <h3><a href="#">aakabdulahad7@gmail.com</a></h3>
-                <br />
-                <img class="second-img" src="profile.jpg" alt="">
-                <h3><a href="#">Ahad's_Portfolio.com</a></h3>
-                <br />
-                <img class="second-img" src="profile.jpg" alt="">
-                <h3>Sarhad Colony Ramdas Peshawar KPK Pakistan</h3>
-                <br />
+                <div class="name">
+                    <h1><a href="">Abdul Ahad</a></h1>
+                    <hr />
+                    <br>
+                </div>
+                <div class="contact-info">
+                    <span class="contact-text">Contact</span>
+                    <span class="contact-icon"><a href="#"><img src="icons/message-45.svg" alt="No img"></a></span>
+                    <ul>
+                        <br>
+                        <li>
+                            <span class="icon"><a href="#"><img src="icons/call-46.svg" alt="No img"></a></span>
+                            <span class="text">+92-308-930-2436</span>
+                        </li>
+                        <li>
+                            <span class="icon"><a href="https://accounts.google.com/"><img src="icons/gmail-31.svg"
+                                        alt="No img"></a></span>
+                            <span class="text"><a href="https://accounts.google.com/">aakabdulahad7@gmail.com</a></span>
+                        </li>
+                        <li>
+                            <span class="icon"><a href="portfolio.html"><img src="icons/link-371.svg"
+                                        alt="No img"></a></span>
+                            <span class="text"><a href="portfolio.html">Portfolio</a></span>
+                        </li>
+                        <li>
+                            <span class="icon"><a href="https://www.linkedin.com/in/aak7"><img
+                                        src="icons/linkedin-125.svg" alt="No img"></a></span>
+                            <span class="text"><a
+                                    href="https://www.linkedin.com/in/aak7">www.linkedin.com/aak7</a></span>
+                        </li>
+                    </ul>
+                    <br>
+                    <hr />
+                    <br />
+                </div>
+                <div class="skills">
+                    <span class="skill-text">Skills</span>
+                    <span class="skill-icon"><img src="icons/personal-skills.svg" alt="No img"></span>
+                    <br />
+                    <ul>
+                        <li>Communication Skills</li>
+                        <li>Typing 50 WPM</li>
+                        <li>Computer Proficiency</li>
+                        <li>Organizational XP</li>
+                        <li>Co-Operation</li>
+                        <li>English Proficiency</li>
+                        <li>Python Programming</li>
+                        <li>Web Development</li>
+                        <li>Driving</li>
 
-                <hr />
-                <div class="skl-img">
-                    <h2>Skills</h2>
-                    <!-- <img class="skill-img" src="profile.jpg" alt=""> -->
+                    </ul>
                 </div>
-                <h4>Communication Skills</h4>
-                <h4>Typing 50 WPM</h4>
-                <h4>Computer Proficiency</h4>
-                <h4>Organizational XP</h4>
-                <h4>Co-Operation</h4>
-                <h4>English Proficiency</h4>
-                <h4>Python Programming</h4>
-                <h4>Web Development</h4>
-                <h4>Driving</h4>
-                <hr />
             </div>
             <!-- ----------------------------------------------------------------- -->
             <div class="right">
                 <div class="about">
-                    <div class="abt-img">
-                        <h2>About</h2>
-                        <!-- <img class="about-img" src="profile.jpg" alt=""> -->
-                    </div>
-
-                    <p>Being a Computer Science student I have strong feelings for <br />
-                        making Software Development career, I wish I could achieve.</p>
+                    <ul>
+                        <li>
+                            <span class="about-title">About</span>
+                            <span class="about-icon"><img src="icons/about-41.svg" alt=""></span>
+                        </li>
+                        <br />
+                        <li>
+                            <p></p>
+                            <span id="element"></span>
+                        </li>
+                    </ul>
                     <hr />
+                    <br>
                 </div>
                 <div class="education">
-                    <div class="edu-img">
-                        <h2>Education History</h2>
-                        <!-- <img class="education-img" src="profile.jpg" alt=""> -->
-                    </div>
-                    <h3>Metric Science</h3>
-                    <h4>Higher Secondary School no. 3</h4>
-                    <h5>City-Peshawar <span class="duration-1">10-Yeays</span></h5>
-                    <br />
-                    <h3>Intermediate</h3>
-                    <h4>Fazaia Degree College</h4>
-                    <h5>Cantt-Peshawar <span class="duration-2">12-Years</span></h5>
+                    <ul>
+                        <li>
+                            <span class="education-title">Education</span>
+                            <span class="education-icon"><img src="icons/education-227.svg" alt="No img"></span>
+                        </li>
+                        <br />
+                        <li>
+                            <h3>Metric Science</h3>
+                            <h4>Higher Secondary School no. 3</h4>
+                            <h5>City-Peshawar <span class="duration-1">10-Yeays</span></h5>
+                        </li>
+                        <li>
+                            <h3>Intermediate</h3>
+                            <h4>Fazaia Degree College</h4>
+                            <h5>Cantt-Peshawar <span class="duration-2">12-Years</span></h5>
+                        </li>
+                        <li>
+                            <h3>Bachelors of Computer Sciences</h3>
+                            <h4>University of Agriculture Peshawar</h4>
+                            <h5>Peshawar <span class="duration-3">16-Years</span></h5>
+                        </li>
+                    </ul>
+                    <hr>
                     <br>
-                    <h3>Bachelors of Computer Sciences</h3>
-                    <h4>University of Agriculture Peshawar</h4>
-                    <h5>Peshawar <span class="duration-3">16-Years</span></h5>
-                    <br />
-                    <hr />
                 </div>
+
                 <div class="work">
-                    <div class="wrk-img">
-                        <h2>Work Experience</h2>
-                        <!-- <img class="work-xp-img" src="profile.jpg" alt=""> -->
-                    </div>
-                    <h3>Marketing</h3>
-                    <h4>Javeed & Co Multinational Distrubutions</h4>
-                    <br>
-                    <h3>Computer Operator</h3>
-                    <h4>Daud Sons Factory</h4>
-                    <br>
-                    <h3>Telephone Operator / Team Recruiter</h3>
-                    <h4>Adam Jee Insurance</h4>
-                    <br>
-                    <h3>Receptionist / Cashier</h3>
-                    <h4>One Dollar Store</h4>
-                    <br>
-                    <h3>Cashier</h3>
-                    <h4>Javeed & Co Surgical Distributions</h4>
+                    <ul>
+                        <li>
+                            <span class="work-title">Work XP</span>
+                            <span class="work-icon"><img src="icons/work-13.svg" alt="No img"></span>
+                        </li>
+                        <br />
+                        <li>
+                            <h3>Marketing</h3>
+                            <h4>Javeed & Co Multinational Distrubutions</h4>
+                        </li>
+                        <li>
+                            <h3>Computer Operator</h3>
+                            <h4>Daud Sons Factory</h4>
+                        </li>
+                        <li>
+                            <h3>Telephone Operator / Team Recruiter</h3>
+                            <h4>Adam Jee Insurance</h4>
+                        </li>
+                        <li>
+                            <h3>Receptionist / Cashier</h3>
+                            <h4>One Dollar Store</h4>
+                        </li>
+                        <li>
+                            <h3>Cashier</h3>
+                            <h4>Javeed & Co Surgical Distributions</h4>
+                        </li>
+                    </ul>
                     <hr />
+                    <br>
                 </div>
-
-
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Being a Computer Science student I have strong feelings for making Software Development career, I wish I could achieve.'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>

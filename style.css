@@ -1,0 +1,299 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: rgb(88, 88, 88);
+            font-family: 'Exo 2';
+            color: white;
+        }
+
+        .main {
+            padding: 30px;
+            background: rgb(88, 88, 88);
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-evenly;
+            /* align-items: center; */
+        }
+
+        /* --------------------------------------------------------------------------------- */
+        .right {
+            width: 65%;
+            padding: 30px;
+            margin-left: 40px;
+            border-radius: 20px;
+            background: rgb(88, 88, 88);
+            color: rgb(184, 184, 184);
+        }
+
+        .right hr {
+            border-color: rgb(151, 151, 151);
+            width: 20cm;
+        }
+
+        .right .about .about-title {
+            font-size: 35px;
+            margin: 10px 0;
+        }
+
+        .right .about .about-icon img {
+            width: 30px;
+            height: 30px;
+            margin-left: 5px;
+        }
+
+        .right .about ul {
+            list-style: none;
+        }
+
+        .right .about ul li {
+            margin: 5px 0;
+        }
+
+        .right .about ul li p {
+            font-size: 20px;
+            font-weight: 200;
+            padding: 5px 0;
+            word-spacing: 3px;
+            letter-spacing: 2px;
+
+        }
+
+        .right .education ul li {
+            margin: 5px 0;
+        }
+
+        .right .education ul li .education-title {
+            font-size: 35px;
+            margin: 20px 0;
+            font-weight: 700;
+        }
+
+        .right .education .education-icon img {
+            width: 34px;
+            height: 34px;
+            margin-left: 5px;
+
+        }
+
+        .right .education ul li h3 {
+            margin: 10px 0;
+            font-size: 26px;
+            text-decoration: underline;
+
+        }
+
+        .right .education ul li h4 {
+            padding: 5px 0;
+            font-size: 20px;
+        }
+
+        .right .education ul li h5 {
+
+            padding: 5px 0;
+            font-size: 16px;
+        }
+
+        .right .work ul li .work-title {
+            font-size: 35px;
+            margin: 20px 0;
+            font-weight: 700;
+        }
+
+        /*----------------  */
+        .right .work ul li h3 {
+            margin: 10px 0;
+            font-size: 26px;
+
+        }
+
+        .right .work ul li h4 {
+            padding: 5px 0;
+            font-size: 20px;
+        }
+
+        .right .work ul li h5 {
+
+            padding: 5px 0;
+            font-size: 16px;
+        }
+
+        .right .work ul {
+            list-style: none;
+        }
+
+        /*  ----------------------------*/
+
+        .right .education ul li .duration-1 {
+            margin-left: 300px;
+        }
+
+        .right .education ul li .duration-2 {
+            margin-left: 300px;
+        }
+
+        .right .education ul li .duration-3 {
+            margin-left: 300px;
+        }
+
+        .right .education ul {
+            list-style: none;
+        }
+
+        .right .work .work-icon img {
+            width: 34px;
+            height: 34px;
+            margin-left: 5px;
+
+        }
+
+
+        /* ------------------------------------------------------------------------------------------------------------------------ */
+        .left {
+            width: 35%;
+            padding: 50px;
+            color: rgb(80, 80, 80);
+            margin-left: 20px;
+            background: rgb(200, 200, 200);
+            border-radius: 20px;
+            transition: 2s;
+        }
+
+        .left:hover {
+            box-shadow: 0 10px 50px rgb(151, 151, 151);
+        }
+
+        .left .name h1 a {
+            font-size: 25px;
+            text-decoration: none;
+            padding-left: 50px;
+            color: rgb(80, 80, 80);
+            transition: 1s;
+        }
+
+        .left .name h1 a:hover {
+            letter-spacing: 1px;
+            font-size: 30px;
+
+        }
+
+        .left hr {
+            border-color: rgb(151, 151, 151);
+            max-width: 8cm;
+        }
+
+        .left .profile-img {
+            width: 5cm;
+            height: 7cm;
+            border: none;
+            border-radius: 10px;
+            margin: 20px;
+            transition: 1s;
+        }
+
+        .left .profile-img:hover {
+            box-shadow: 0 10px 20px rgba(110, 44, 56, 1);
+            opacity: 1;
+        }
+
+        .left .contact-info ul {
+            list-style: none;
+        }
+
+        .left .contact-info .contact-text {
+            margin: 20px 0;
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        .left .contact-info .contact-icon img {
+            width: 30px;
+            height: 30px;
+            margin-left: 5px;
+        }
+
+        .left .contact-info ul li {
+            line-height: 28px;
+            color: rgb(80, 80, 80);
+            font-size: 16px;
+            font-weight: bolder;
+            padding: 5px;
+        }
+
+        .left .contact-info ul>li a {
+            text-decoration: none;
+            line-height: 28px;
+            color: rgb(80, 80, 80);
+            transition: .5s;
+        }
+
+        .left .contact-info ul li a:hover {
+            letter-spacing: 2px;
+        }
+
+        .left .contact-info .icon img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            transition: .5s;
+        }
+
+        .left .contact-info .icon img:hover {
+            width: 28px;
+            height: 28px;
+        }
+
+        .left .skills ul {
+            list-style: none;
+            color: rgb(80, 80, 80);
+        }
+
+        .left .skills ul>li {
+            margin-top: 10px;
+        }
+
+        .left .skills ul li {
+            margin-top: 10px;
+            color: rgb(80, 80, 80);
+        }
+
+        .left .skill-icon img {
+            width: 30px;
+            height: 30px;
+            margin-left: 5px;
+        }
+
+        .left .skill-text {
+            margin: 20px 0;
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        .left h4 {
+            padding: 10px;
+            font-weight: 200;
+        }
+
+        .left h3 a {
+            text-decoration: none;
+            color: white;
+            transition: 1s;
+        }
+
+        .left h3 a:hover {
+            color: rgb(85, 85, 85);
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        #element{
+            font-size: 20px;
+            font-weight: 200;
+            padding: 5px 0;
+            word-spacing: 3px;
+            letter-spacing: 2px;
+        }

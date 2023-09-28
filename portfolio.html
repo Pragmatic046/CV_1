@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(6, 23, 41);
+            font-family: "Poppins", segoe ui;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(173, 255, 47, 0.4);
+            margin: 10px 0;
+        }
+
+
+        main hr {
+            border: none;
+            background: rgb(173, 255, 47, 0.4);
+            height: 2px;
+            margin: 30px 100px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            font-size: 15px;
+            list-style: none;
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            border-radius: 6px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            transition: 1s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(6, 23, 41);
+            font-size: 17px;
+            box-shadow: 0px 0px 20px rgba(6, 23, 41, 0.8);
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 5px 5px;
+            border: none;
+        }
+
+        nav .logo img {
+            display: flex;
+            height: 60px;
+            width: 60px;
+            margin: 0 0 0 10px;
+            border: none;
+            border-radius: 50px;
+            transition: 1s;
+        }
+
+        nav .logo img:hover {
+            width: 50px;
+            height: 50px;
+            box-shadow: 0 0 20px rgba(6, 23, 41, 0.8);
+        }
+
+        .left a {
+            text-decoration: none;
+            border-radius: 6px;
+            color: rgb(255, 255, 255);
+            font-size: 1.6rem;
+            transition: 1s;
+        }
+
+        .left a:hover {
+            color: rgb(6, 23, 41);
+            font-size: 1.2rem;
+            box-shadow: 0px 0px 14px rgb(6, 23, 41);
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 3px 3px;
+            border: none;
+        }
+
+        .firstSec {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSec>div {
+            width: 30%;
+        }
+
+        .leftSec {
+            background-image: image();
+            color: rgb(255, 255, 255);
+            font-size: 2.3rem;
+            justify-content: center;
+            margin: 50px 0;
+            word-spacing: 85x;
+        }
+
+        .rightSec {
+            color: rgb(255, 255, 255);
+        }
+
+        .rightSec img {
+            opacity: 0.5;
+            border-radius: 30px;
+            border: none;
+            box-shadow: 15px 18px 50px dodgerblue;
+        }
+
+        .name {
+            color: rgb(234, 0, 255);
+        }
+
+        #element {
+            color: dodgerblue;
+        }
+
+        .secondSec {
+            height: 80vh;
+            max-width: 80vw;
+            margin: auto;
+            color: white;
+        }
+
+        .secondSec h1 {
+            font-size: 1.8rem;
+        }
+
+        .gray-text {
+            color: gray;
+        }
+
+        .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .vertical {
+            height: 95px;
+            width: .5px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .footer {
+            height: 50px;
+            margin: 10px 0px;
+            padding: 20px 100px;
+            background-color: rgb(173, 255, 47, 0.4);
+            border: none;
+        }
+
+        .footer .first ul {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .footer .first ul a {
+            color: rgb(6, 23, 41);
+            text-decoration: none;
+            transition: 1s;
+        }
+
+        .footer .first ul li {
+            font-size: 15px;
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .footer .first ul li a:hover {
+            font-size: 17px;
+        }
+
+        .footer .text {
+            color: white;
+            /* margin-top: 10px; */
+            text-align: center;
+            font-size: small;
+            padding: 10px 0;
+            letter-spacing: 1px;
+        }
+
+        .footer .text a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer .top-foot {
+            font-size: 1.4rem;
+            text-align: center;
+            transition: 1s;
+        }
+
+        .footer .top-foot:hover {
+            font-size: 1.35rem;
+        }
+
+        .footer .top-foot a {
+            text-decoration: none;
+            color: rgb(6, 23, 41);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">
+                    <img src="profile.jpg" alt="logo">
+                </a>
+            </div>
+            <div class="left">
+                <a href="#">Ahad.</a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contect Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSec">
+            <div class="leftSec">Hi, My name is <span class="name">Ahad</span>
+                <span id="element"></span>
+            </div>
+            <div class="rightSec">
+                <img class="image" src="profile.jpg" alt="Photo">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSec">
+            <span class="gray-text">What I have done so far</span>
+            <h1>Past Experience</h1>
+            <div class="box">
+                <!-- <div class="vertical">hi</div>
+                <div class="vertical">hi</div>
+                <div class="vertical">hi</div>
+                <div class="vertical">hi</div> -->
+
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="top-foot">
+                    <a href="#">Ahad's Portfolio</a>
+                </div>
+                <div class="first">
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</li>
+                        <li><a href="">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="text">
+                    <a href="#">www.Ahadporfolio.com </a>| All rights reserved
+                </div>
+        </footer>
+    </main>
+    <!-- ------------------------------------------------------- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['&amp; I am a Web Developer'],
+            typeSpeed: 70,
+        });
+    </script>
+    <!-- -------------------------------------------------------- -->
+</body>
+
+</html>
